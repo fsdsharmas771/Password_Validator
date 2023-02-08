@@ -1,0 +1,77 @@
+body{
+    background:linear-gradient(90deg,skyblue,purple);
+    font-family: 'Oswald', sans-serif;
+}
+.main{
+    margin: auto;
+    width: 97vw;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form{
+    margin:10px;
+}
+form input{
+    width: 495px;
+    height: 50px;
+    border-radius: 5px;
+    margin-top: 10%;
+    font-size: 20px;
+}
+#checkbox{
+    font-size: 25px;
+    background-color: rgb(38, 113, 107);
+    width: 500px;
+    height: 190px;
+    display: flex;
+    flex-direction: column;
+    padding: 3px;
+    border-radius: 10px;
+    color: white;
+}
+.single-check-item{
+    display: flex;
+    justify-content: space-between;
+}
+.box{
+    width:20px;
+    height: 20px;
+}
+#author_details{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+}
+#author_details h4{
+    margin: 5px;
+}
+#name{
+    color: black;
+    font-size: 30px;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+.icon a i{
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+}
+
+@media only screen and (max-width: 414px) {
+    form input{
+        width: 250px;
+        font-size: 15px;
+    }
+    #checkbox{
+        font-size: 15px;
+        width: 257px;
+        height: 135px;
+    }
+}

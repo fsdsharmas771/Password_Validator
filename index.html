@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Validator | Tarun</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5bd46391e5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="main">
+        <form>
+            <input type="password" placeholder="Enter Password" id="input-password">
+        </form>
+        <div id="checkbox">
+            <span class="single-check-item">
+                <label for="lower-char">At least One Lowercase Character</label>
+                <input type="checkbox" id="lower-char" class="box">
+            </span>
+            <span class="single-check-item">
+                <label for="upper-char">At least One Uppercase Character</label>
+                <input type="checkbox" id="upper-char" class="box">
+            </span>
+            <span class="single-check-item">
+                <label for="number">At least one Number</label>
+                <input type="checkbox" id="number" class="box">
+            </span>
+            <span class="single-check-item">
+                <label for="special-char">At least One Special Character</label>
+                <input type="checkbox" id="special-char" class="box">
+            </span>
+            <span class="single-check-item">
+                <label for="8-char">At least 8 Character</label>
+                <input type="checkbox" id="8-char" class="box">
+            </span>
+        </div>
+        <div id="author_details">
+            <h4>Made By:<span id="name">Tarun Sharma</span></h4>
+            <h4>My Socials:
+                <span id="linkedin" class="icon">
+                    <a href="https://www.linkedin.com/in/tarun-sharma-8886b4249/">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </span>
+                <span id="github" class="icon">
+                    <a href="https://github.com/fsdsharmas771">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </span>
+            </h4>
+        </div>
+    </div>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
